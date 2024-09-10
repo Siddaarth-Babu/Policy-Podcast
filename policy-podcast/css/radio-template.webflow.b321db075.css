@@ -2911,12 +2911,26 @@ figcaption {
 }
 
 .section.hero {
-  background-image: url("https://assets-global.website-files.com/5ec2a2f907dd528c95f3acd3/5ec2c26a8ea69a0b166782d9_image-hero-radio-template.jpg");
+  background-image: url("../images/5ec2c26a8ea69a0b166782d9_image-hero-radio-template.jpg");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 176px;
-  padding-bottom: 292px;
+  padding-bottom: 120px;
+}
+.w-layout-flexi {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.yt-subs-btn{
+  text-decoration: none;
+  color: white;
+  transition: 0.1s;
+}
+.yt-subs-btn:hover{
+  text-decoration: none;
 }
 
 .section.padding-0px {
@@ -2977,7 +2991,7 @@ figcaption {
 
 .section.about-host {
   background-image: linear-gradient(to bottom, var(--neutral-700) 80%, white 80%);
-  padding-bottom: 0;
+  padding-bottom: 180px;
 }
 
 .section.about-host.v2 {
@@ -4166,7 +4180,7 @@ figcaption {
 }
 
 .dropdown-list.w--open {
-  min-width: 520px;
+  min-width: 300px;
   padding: 32px 34px;
   display: flex;
   top: 90px;
