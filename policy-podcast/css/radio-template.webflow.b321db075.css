@@ -2796,9 +2796,9 @@ figcaption {
 }
 
 .header-logo {
-  width: 65px;
+  width: 90px;
   transform-style: preserve-3d;
-  transition: transform .35s;
+  transition: transform .5s;
 }
 
 .header-logo:hover {
@@ -3272,6 +3272,7 @@ figcaption {
 }
 
 .header-wrapper {
+  box-sizing: border-box;
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -4180,7 +4181,7 @@ figcaption {
 }
 
 .dropdown-list.w--open {
-  min-width: 300px;
+  max-width: 278px;
   padding: 32px 34px;
   display: flex;
   top: 90px;
